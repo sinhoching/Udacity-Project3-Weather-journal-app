@@ -44,7 +44,6 @@ app.get("/all", function(req, res) {
 });
 
 //POST routes
-
 app.post('/addData', addData);
 function addData (req, res) {
     //console.log(data);
